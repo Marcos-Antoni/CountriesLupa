@@ -1,0 +1,31 @@
+.Loading {
+  flex-direction: column;
+  position: relative;
+
+  height: var(--pantalla-header);
+}
+
+.Loading_character {
+  display: inline-block;
+  position: relative;
+
+  font-size: var(--carga-error);
+  text-transform: uppercase;
+
+  animation: Loading_character 1s ease-in-out infinite;
+}
+
+@keyframes Loading_character {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(-20px);
+  }
+
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+}

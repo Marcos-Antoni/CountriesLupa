@@ -1,0 +1,7 @@
+.error {
+  height: var(--pantalla-header);
+}
+
+.error_message {
+  font-size: var(--carga-error);
+}

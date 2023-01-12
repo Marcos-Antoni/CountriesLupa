@@ -1,0 +1,51 @@
+/* Fuente */
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
+/* Variables */
+:root {
+  /* colores */
+  --color-texto: #fff;
+  --color-fondo-principal: #212e37;
+  --color-fondo-secundario: #2b3743;
+  --color-verde: #00b894;
+  --color-sombra: 0 5px 15px rgb(0 0 0 / 50%);
+
+  /* tamaño */
+  --carga-error: 3rem;
+  --busqueda-header: 40px;
+  --busqueda-border-radius: 10px;
+  --pantalla-header: calc(100vh - 115px);
+  --separacion-gap: 40px;
+  --card-img: 300px;
+  --card-conten: 150px;
+
+  /* animacion */
+  --transicion: all 0.3s ease-in-out;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: var(--busqueda-header);
+
+  padding: 0 10px;
+
+  color: var(--color-fondo-principal);
+  background-color: var(--color-verde);
+  border: solid 2px var(--color-verde);
+
+  font-weight: bold;
+
+  font-size: 18px;
+
+  transition: var(--transicion);
+}
+
+.btn:hover {
+  color: var(--color-verde);
+  background-color: var(--color-fondo-principal);
+}
